@@ -1,3 +1,3 @@
-USE `zap361654-2`;
+
 
 ALTER TABLE `users` ADD COLUMN `status` LONGTEXT NULL;
