@@ -1,0 +1,52 @@
+/*R-editado e adicionado por Bebiano/Negorath_pt (SeyfertGaming), por favor não nos retirem os créditos da edição*/
+/*R-editado e adicionado por Bebiano/Negorath_pt (SeyfertGaming), por favor não nos retirem os créditos da edição*/
+/*Por um tuga para a comunidade portuguesa*/
+
+#status_list {
+	position: absolute;
+	left   : 17%;
+	bottom : 4%;
+	width  : 4%; /*comprimento das barras*/
+	transform: rotateZ(270deg); /*rotação das barras*/
+	opacity: 0.9; /*transparência*/
+}
+
+/*Texto da comida*/
+.comida p {
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+	font-size: 30px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+	opacity: 0.4;
+}
+
+/*Texto da água*/
+.agua p {
+    margin: 0;
+    position: absolute;
+    top: 61%;
+    left: 30%;
+	font-size: 30px;
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+	opacity: 0.3;
+}
+.status {
+	padding: 1px; /*espaço entre as barras*/
+	margin: 0.3em;
+	border: 2px solid #000000;
+	border-radius: 15px;
+}
+
+.status_inner {
+	padding: 0px; /*largura das bordas exteriores*/
+	border-radius: 15px;
+}
+
+.status_val {
+	height : 3.5em; /*espessura da barra interior*/
+	border-radius: 15px;
+}
