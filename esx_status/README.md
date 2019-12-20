@@ -7,7 +7,7 @@ ESX Status
 ```
 git clone https://github.com/Bebiano86/esx_status/tree/master/esx_status
 ```
-3) Import esx_status.sql in your database
+3) Import esx_status.sql in your database.
 4) Add this in your server.cfg :
 
 ```
